@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendors/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">-->
+</head>
+<body>
+<div>
+<!-- 	Nigar header footer burda yazib o birsi sehifelerde paste elemelisen -->
+	<section id="header">
+        <nav class="navbar navbar-fixed-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <a class="navbar-brand" href="#">Educive.com</a>
+                 <form style="float:left" class="visible-xs-block col-xs-5">
+                    <div class="form-group collapsed-form">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                </form>
+            </div>
+              
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                  <a id="drop11" href="#" class="dropdown-toggle" data-toggle="dropdownn" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+                  <ul class="dropdown-menu" id="drop1">
+                    <li><a href="#">Trainings</a></li>
+                    <li><a href="#">Camps</a></li>
+                    <li><a href="#">Conferences</a></li>
+                    <li><a href="#">Contest</a></li>
+                    <li><a href="#">Workshops</a></li>
+                    <li><a href="#">Adventures</a></li>
+                    <li><a href="#">Exhibition</a></li>
+                    <li><a href="#">Competition</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vacancies<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Interships</a></li>
+                    <li><a href="#">Volunteering</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Scholarship &amp; Grants<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Bachelor</a></li>
+                    <li><a href="#">Grants</a></li>
+                    <li><a href="#">Master</a></li>
+                    <li><a href="#">Phd</a></li>
+                    <li><a href="#">Fellowship</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Contact Us<span class="sr-only"</span></a></li>
+              </ul>
+              <form class="navbar-form navbar-right hidden-xs">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a id="signUp" href="#">Sign up</a></li>
+                <li><a href="#">Log in</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+    </section><!--  Nigar -->
+	<section id="index">
+	<div class="container">
+	<div class="row" id="upcoming">
+			<div class="col-md-9">
+				<div class="row" id="row1">
+					<div class="col-md-8">
+						<div class="slider">
+						
+							<div class="bigItem item" id="sliderItem1">
+								<div class="itemImg">
+									<img class="img-responsive" src="images/item1.jpg">
+								</div>
+								<div class="gradient"></div>
+								<div class="itemContent innerItemContent">
+									<h1>NYC Love Bikers</h1>
+									<span class="fa fa-clock-o" aria-hidden="true"></span>
+									<span class="deadline">25 Jan, 2016</span>
+									<p>Lorem ipsum dolor dummy text goes here</p>
+								</div>
+							</div>
+						
+							<div class="bigItem item"  id="sliderItem2" style="display:none">
+								<div class="itemImg">
+									<img class="img-responsive" src="images/item2.jpg">
+								</div>
+								<div class="gradient"></div>
+								<div class="itemContent innerItemContent">
+									<h1>Or they don't?</h1>
+									<span class="fa fa-clock-o" aria-hidden="true"></span>
+									<span class="deadline">25 Feb, 2016</span>
+									<p>Lorem ipsum dolor dummy text goes here</p>
+								</div>
+							</div>
+						
+							<div class="bigItem item"  id="sliderItem3" style="display:none">
+								<div class="itemImg">
+									<img class="img-responsive" src="images/item3.jpg">
+								</div>
+								<div class="gradient"></div>
+								<div class="itemContent innerItemContent">
+									<h1>Or they don't?</h1>
+									<span class="fa fa-clock-o" aria-hidden="true"></span>
+									<span class="deadline">25 Feb, 2016</span>
+									<p>Lorem ipsum dolor dummy text goes here</p>
+								</div>
+							</div>
+							
+						<span class="fa fa-chevron-left" aria-hidden="true"></span>
+						<span class="fa fa-chevron-right" aria-hidden="true"></span>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="mediumItem item col-md-12 col-sm-6">
+							<div class="itemImg">
+								<img class="img-responsive" src="images/item2.jpg">
+							</div>
+							<div class="gradient"></div>
+							<div class="itemContent innerItemContent">
+								<h1>London Stock Exchange intensified</h1>
+								<span class="fa fa-clock-o" aria-hidden="true"></span>
+								<span class="deadline">25 Jan, 2016</span>
+							</div>
+						</div>
+						<!-- Divider -->
+						<div style="height:40px;" class="hidden-sm hidden-xs col-md-12"></div>
+
+						<div class="mediumItem item col-md-12 col-sm-6">
+							<div class="itemImg">
+								<img class="img-responsive" src="images/item2.jpg">
+							</div>
+							<div class="gradient"></div>
+							<div class="itemContent innerItemContent">
+								<h1>London Stock Exchange intensified</h1>
+								<span class="fa fa-clock-o" aria-hidden="true"></span>
+								<span class="deadline">25 Jan, 2016</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="row2">
+					<div class="col-md-4 col-sm-4">
+						<div class="mediumItem item">
+							<div class="itemImg">
+								<img class="img-responsive" src="images/item2.jpg">
+							</div>
+							<div class="gradient"></div>
+							<div class="itemContent outerItemContent">
+								<h1>Popular Destinations in North America</h1>
+								<span class="fa fa-clock-o" aria-hidden="true"></span>
+								<span class="deadline">25 Jan, 2016</span>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="mediumItem item">
+							<div class="itemImg">
+								<img class="img-responsive" src="images/item2.jpg">
+							</div>
+							<div class="gradient"></div>
+							<div class="itemContent outerItemContent">
+								<h1>Popular Destinations in North America</h1>
+								<span class="fa fa-clock-o" aria-hidden="true"></span>
+								<span class="deadline">25 Jan, 2016</span>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="mediumItem item">
+							<div class="itemImg">
+								<img class="img-responsive" src="images/item2.jpg">
+
+							</div>
+							<div class="gradient"></div>
+							<div class="itemContent outerItemContent">
+								<h1>Extreme Bike Ride in Ecuador Mountains</h1>
+								<span class="fa fa-clock-o" aria-hidden="true"></span>
+								<span class="deadline">25 Jan, 2016</span>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+
+			</div>
+		</div><!--  End of upcoming deadlines row -->
+		
+		<div class="sectionHeader">
+			<h1>Vacancies</1>
+		</div>
+		
+		<div class="row" id="vacancies">
+		<!--Big and medium items-->
+		<div class="row">
+			<div class="col-md-6">
+				<div class="bigItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item1.jpg">
+					</div>
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>NYC Love Bikers</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+						<p>Lorem ipsum dolor dummy text goes here</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<!-- Divider -->
+				<div style="height:40px;" class="hidden-sm hidden-xs"></div>
+				
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<!-- Divider -->
+				<div style="height:40px;" class="hidden-sm hidden-xs"></div>
+				
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item1.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>Startup released a chip for little pets</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item3.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>New Canon lens available</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item3.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>Pioneer makes you better DJs</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item3.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>Minimal organized special gadgets</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+			</div>
+		</div><!--  End of vacancies row -->
+		
+		<div class="sectionHeader">
+			<h1>Vacancies</1>
+		</div>
+		
+		<div class="row" id="vacancies">
+		<!--Big and medium items-->
+		<div class="row">
+			<div class="col-md-6">
+				<div class="bigItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item1.jpg">
+					</div>
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>NYC Love Bikers</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+						<p>Lorem ipsum dolor dummy text goes here</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<!-- Divider -->
+				<div style="height:40px;" class="hidden-sm hidden-xs"></div>
+				
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<!-- Divider -->
+				<div style="height:40px;" class="hidden-sm hidden-xs"></div>
+				
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item1.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>Startup released a chip for little pets</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item3.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>New Canon lens available</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item3.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>Pioneer makes you better DJs</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item3.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>Minimal organized special gadgets</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+			</div>
+		</div><!--  End of vacancies row -->
+		
+		
+		<div class="sectionHeader">
+			<h1>Vacancies</1>
+		</div>
+		
+		<div class="row" id="vacancies">
+		<!--Big and medium items-->
+		<div class="row">
+			<div class="col-md-6">
+				<div class="bigItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item1.jpg">
+					</div>
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>NYC Love Bikers</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+						<p>Lorem ipsum dolor dummy text goes here</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<!-- Divider -->
+				<div style="height:40px;" class="hidden-sm hidden-xs"></div>
+				
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<!-- Divider -->
+				<div style="height:40px;" class="hidden-sm hidden-xs"></div>
+				
+				<div class="mediumItem item">
+					<div class="itemImg">
+						<img class="img-responsive" src="images/item2.jpg">
+					</div>
+					<div class="gradient"></div>
+					<div class="itemContent innerItemContent">
+						<h1>London Stock Exchange intensified</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item1.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>Startup released a chip for little pets</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item3.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>New Canon lens available</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item3.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>Pioneer makes you better DJs</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 hidden-xs item smallItem">
+					<div class="col-md-4 col-sm-4 smallItemImg">
+						<img class="img-responsive" src="images/item3.jpg">
+					</div>
+					<div class="col-md-8 col-sm-8 itemContent smallItemContent">
+						<h1>Minimal organized special gadgets</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Jan, 2016</span>
+					</div>
+				</div>
+			</div>
+		</div><!--  End of vacancies row -->
+		
+		
+		
+		<div class="sectionHeader">
+			<h1>Editors' Choice</1>
+		</div>
+		
+		<div class="row" id="special">
+			<!-- Will contain a section like "Editors' Choice"-->
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<div class="item specialItem">
+					<div class="itemImg">
+						<img src="images/item4.jpg" class="img-responsive">
+					</div>
+					<div class="itemContent">
+						<h1>Lets Organize Your Office Workspace</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Mar, 2014</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<div class="item specialItem">
+					<div class="itemImg">
+						<img src="images/item1.jpg" class="img-responsive">
+					</div>
+					<div class="itemContent">
+						<h1>Lets Organize Your Office Workspace</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Mar, 2014</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<div class="item specialItem">
+					<div class="itemImg">
+						<img src="images/item4.jpg" class="img-responsive">
+					</div>
+					<div class="itemContent">
+						<h1>Lets Organize Your Office Workspace</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Mar, 2014</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<div class="item specialItem">
+					<div class="itemImg">
+						<img src="images/item2.jpg" class="img-responsive">
+					</div>
+					<div class="itemContent">
+						<h1>Lets Organize Your Office Workspace</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Mar, 2014</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<div class="item specialItem">
+					<div class="itemImg">
+						<img src="images/item4.jpg" class="img-responsive">
+					</div>
+					<div class="itemContent">
+						<h1>Lets Organize Your Office Workspace</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Mar, 2014</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<div class="item specialItem">
+					<div class="itemImg">
+						<img src="images/item3.jpg" class="img-responsive">
+					</div>
+					<div class="itemContent">
+						<h1>Lets Organize Your Office Workspace</h1>
+						<span class="fa fa-clock-o" aria-hidden="true"></span>
+						<span class="deadline">25 Mar, 2014</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div><!--  End of container -->
+	</section><!--  Cingiz -->
+	<section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <span>Copyright &copy; Educive.com 2016</span>
+                </div>
+
+                <div class="col-md-6 col-xs-12 ">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </section><!--  Nigar -->
+</div>
+
+
+
+<script type="text/javascript" src="assets/vendors/jquery/jquery-3.1.0.js"></script>
+<script type="text/javascript" src="assets/vendors/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
