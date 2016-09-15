@@ -77,6 +77,10 @@ $('#drop11').hover(function() {
 }, function() {
     $('#drop1').css('display','none')
 });
+
+$(window).resize(function(){
+    console.log( $(window).width())
+})
     
    
     

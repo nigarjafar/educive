@@ -60,12 +60,13 @@
             button{
                 border-radius:0;
                 border-color:transparent;
-                    margin-left: -43px;
+                    margin-left: -40px;
                 i{ color:$navTextColor; }
             }
         }
         .collapsed-form{
             margin-top:12px;
+            display:none;
             .form-control{
                 width:70%;
                 padding:3px 3px;
@@ -73,6 +74,7 @@
                 border:none;
             }
             button{
+                margin-left: -20px;
                 margin-top:-2px;
                 padding:3px;
                 border:none;
@@ -163,5 +165,11 @@
     }
     .collapse.in{
         display:block !important;
+    }
+    .collapsed-form{
+        display:block !important;
+    }
+    .full-width-form{
+        display:none !important;
     }
 }
