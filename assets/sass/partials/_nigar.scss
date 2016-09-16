@@ -131,6 +131,14 @@
   }
 }
 
+@media (min-width: 1200px) {
+    .dropdown:hover{
+        .dropdown-menu{
+            display:block !important;
+        }
+    }
+}
+
 @media (max-width: 1200px) {
     .navbar-header {
         float: none;
