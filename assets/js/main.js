@@ -1,3 +1,5 @@
+//Navbar hover function
+
 function Navbar(){
     if($(window).width()<1200){
         $(".dropdown-toggle").attr("data-toggle","dropdown")
